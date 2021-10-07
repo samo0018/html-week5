@@ -1,4 +1,19 @@
 /* apply a BG color to the whole page (or the body tag) */
 body{
-    background-color: green;
+    background-color:cadetblue;
+}
+
+/* target all paragraphs and h2 tags to be a specific font color */
+p, h2{
+    color: silver; 
+}
+
+/* target specifically the paragraph inside the footer */
+footer p{
+    color: white;
+    font-size: 10px;
+}
+
+.larger{
+    font-size:24px;
 }

@@ -81,3 +81,31 @@ nth-child (2n-1) - styles EVERY OTHER element, starting with the first element
 li:nth-child(2n-1){
     background-color: plum;
 }
+
+/* inline vs block elements */
+/* section is a block element - it takes up whole line by default and pushes
+other elements down to the next line */
+
+section{
+    width: 400px;
+    height: 200px;
+    background-color: rebeccapurple;
+}
+nav{
+    /* by default, a block elements takes up the width of the page
+    or the element which is inside of it*/
+    background-color: goldenrod;
+}
+
+span{
+    /* inline elements can't have a width and a height
+    so your browser will ignore these properties*/
+    width: 100px;
+    height: 100px;
+    /* 
+    RGB: 3 numbers (btwn 0-255)
+        (each number represents red, green & blue)
+    RGBA: adds a 4th number value (btwn 0.0-1.0) for transparency
+    */
+    background-color: rgba(255, 128, 200, .6);
+}
